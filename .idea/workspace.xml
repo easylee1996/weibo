@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="">
+    <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="增加CSRF验证">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weibo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weibo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +144,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XR6EtWFOQQvlPB3ddn7hgD7VSl" />
@@ -194,7 +202,8 @@
       <workItem from="1581057188455" duration="90000" />
       <workItem from="1581057313567" duration="851000" />
       <workItem from="1581058727868" duration="1278000" />
-      <workItem from="1581088210824" duration="955000" />
+      <workItem from="1581088210824" duration="1905000" />
+      <workItem from="1581090292765" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="命名路由">
       <created>1581057837517</created>
@@ -217,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581088890269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加CSRF验证">
+      <created>1581089382274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581089382274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,13 +256,14 @@
     <MESSAGE value="命名路由" />
     <MESSAGE value="重新创建了User.php文件" />
     <MESSAGE value="用户注册表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户注册表单" />
+    <MESSAGE value="增加CSRF验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加CSRF验证" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1040" y="213" key="#Notifications" timestamp="1581088232692">
+    <state x="-1040" y="213" key="#Notifications" timestamp="1581090389517">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-1040" y="213" key="#Notifications/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581088232692" />
+    <state x="-1040" y="213" key="#Notifications/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090389517" />
     <state x="-803" y="273" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581053319455">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
@@ -255,10 +272,10 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-835" y="289" key="#com.intellij.tools.ToolEditorDialog/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073783052" />
-    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581088890100">
+    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581090345799">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581088890100" />
+    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090345799" />
     <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057333777" />
     <state x="-1037" y="111" width="1021" height="827" key="EditFileWatcherDialog" timestamp="1581053550823">
       <screen x="-1080" y="-331" width="1080" height="1920" />
@@ -281,10 +298,10 @@
     </state>
     <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581058848291" />
     <state x="460" y="505" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057321938" />
-    <state x="-960" y="137" width="839" height="984" key="find.popup" timestamp="1581066813815">
+    <state x="-960" y="137" width="839" height="984" key="find.popup" timestamp="1581090539612">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-960" y="137" width="839" height="984" key="find.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581066813815" />
+    <state x="-960" y="137" width="839" height="984" key="find.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090539612" />
     <state x="-959" y="291" key="run.anything.popup" timestamp="1581057176834">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
