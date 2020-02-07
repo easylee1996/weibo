@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +194,7 @@
       <workItem from="1581057188455" duration="90000" />
       <workItem from="1581057313567" duration="851000" />
       <workItem from="1581058727868" duration="1278000" />
-      <workItem from="1581088210824" duration="533000" />
+      <workItem from="1581088210824" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="命名路由">
       <created>1581057837517</created>
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581068011091</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="用户注册表单">
+      <created>1581088890269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581088890269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="命名路由" />
     <MESSAGE value="重新创建了User.php文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新创建了User.php文件" />
+    <MESSAGE value="用户注册表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户注册表单" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1040" y="213" key="#Notifications" timestamp="1581088232692">
@@ -247,10 +255,10 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-835" y="289" key="#com.intellij.tools.ToolEditorDialog/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073783052" />
-    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581068010971">
+    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581088890100">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581068010971" />
+    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581088890100" />
     <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057333777" />
     <state x="-1037" y="111" width="1021" height="827" key="EditFileWatcherDialog" timestamp="1581053550823">
       <screen x="-1080" y="-331" width="1080" height="1920" />
@@ -264,10 +272,10 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-1080" y="41" width="1080" height="897" key="SettingsEditor/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073885480" />
-    <state width="625" height="500" key="SwitcherDM" timestamp="1581088815949">
+    <state width="625" height="500" key="SwitcherDM" timestamp="1581088920489">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581088815949" />
+    <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581088920489" />
     <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581058848291">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
