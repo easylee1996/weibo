@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="命名路由">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -194,6 +197,7 @@
       <workItem from="1581057108812" duration="76000" />
       <workItem from="1581057188455" duration="90000" />
       <workItem from="1581057313567" duration="851000" />
+      <workItem from="1581058727868" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="命名路由">
       <created>1581057837517</created>
@@ -213,7 +217,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -249,15 +255,15 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581053127441" />
-    <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581057830112">
+    <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581058848291">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581057830112" />
+    <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581058848291" />
     <state x="460" y="505" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057321938" />
-    <state x="-960" y="137" width="839" height="984" key="find.popup" timestamp="1581053141202">
+    <state x="-960" y="137" width="839" height="984" key="find.popup" timestamp="1581066813815">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-960" y="137" width="839" height="984" key="find.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581053141202" />
+    <state x="-960" y="137" width="839" height="984" key="find.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581066813815" />
     <state x="-959" y="291" key="run.anything.popup" timestamp="1581057176834">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
