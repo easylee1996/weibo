@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="增加CSRF验证">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weibo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weibo.iml" afterDir="false" />
+    <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_messages.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +199,7 @@
       <workItem from="1581057313567" duration="851000" />
       <workItem from="1581058727868" duration="1278000" />
       <workItem from="1581088210824" duration="1905000" />
-      <workItem from="1581090292765" duration="98000" />
+      <workItem from="1581090292765" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="命名路由">
       <created>1581057837517</created>
@@ -233,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581089382274</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="中文的错误提示信息">
+      <created>1581090572577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581090572577</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +260,8 @@
     <MESSAGE value="重新创建了User.php文件" />
     <MESSAGE value="用户注册表单" />
     <MESSAGE value="增加CSRF验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加CSRF验证" />
+    <MESSAGE value="中文的错误提示信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="中文的错误提示信息" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1040" y="213" key="#Notifications" timestamp="1581090389517">
@@ -272,10 +276,10 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-835" y="289" key="#com.intellij.tools.ToolEditorDialog/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073783052" />
-    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581090345799">
+    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581090572245">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090345799" />
+    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090572245" />
     <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057333777" />
     <state x="-1037" y="111" width="1021" height="827" key="EditFileWatcherDialog" timestamp="1581053550823">
       <screen x="-1080" y="-331" width="1080" height="1920" />
@@ -289,10 +293,10 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-1080" y="41" width="1080" height="897" key="SettingsEditor/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073885480" />
-    <state width="625" height="500" key="SwitcherDM" timestamp="1581088920489">
+    <state width="625" height="500" key="SwitcherDM" timestamp="1581090984081">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
-    <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581088920489" />
+    <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090984081" />
     <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581058848291">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
@@ -306,5 +310,9 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-959" y="291" key="run.anything.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581057176834" />
+    <state x="-959" y="102" width="838" height="1032" key="search.everywhere.popup" timestamp="1581090989441">
+      <screen x="-1080" y="-331" width="1080" height="1920" />
+    </state>
+    <state x="-959" y="102" width="838" height="1032" key="search.everywhere.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090989441" />
   </component>
 </project>
