@@ -2,22 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -195,7 +193,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580996451340</updated>
-      <workItem from="1580996453001" duration="10488000" />
+      <workItem from="1580996453001" duration="11157000" />
+      <workItem from="1581057108812" duration="76000" />
+      <workItem from="1581057188455" duration="90000" />
     </task>
     <servers />
   </component>
@@ -207,6 +207,11 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-803" y="273" key="#com.intellij.ide.macro.MacrosDialog/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581053319455" />
+    <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581057333777">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581057171925" />
+    <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057333777" />
     <state x="-1037" y="111" width="1021" height="827" key="EditFileWatcherDialog" timestamp="1581053550823">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
@@ -223,9 +228,18 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581053127441" />
+    <state x="460" y="505" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581057321938">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581057165482" />
+    <state x="460" y="505" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057321938" />
     <state x="-960" y="137" width="839" height="984" key="find.popup" timestamp="1581053141202">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-960" y="137" width="839" height="984" key="find.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581053141202" />
+    <state x="-959" y="291" key="run.anything.popup" timestamp="1581057176834">
+      <screen x="-1080" y="-331" width="1080" height="1920" />
+    </state>
+    <state x="-959" y="291" key="run.anything.popup/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581057176834" />
   </component>
 </project>
