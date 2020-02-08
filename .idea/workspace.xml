@@ -4,6 +4,7 @@
     <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,11 @@
     </favorites_list>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="easylee1996" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -200,7 +206,7 @@
       <workItem from="1581090292765" duration="1561000" />
       <workItem from="1581100556773" duration="1065000" />
       <workItem from="1581102127910" duration="691000" />
-      <workItem from="1581103796901" duration="3242000" />
+      <workItem from="1581103796901" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="命名路由">
       <created>1581057837517</created>
@@ -258,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581145776505</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="登陆成功后导航逻辑">
+      <created>1581145853247</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581145853247</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,12 +314,12 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-835" y="289" key="#com.intellij.tools.ToolEditorDialog/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073783052" />
-    <state x="-1051" y="-419" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581145776269">
+    <state x="-1051" y="-419" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581145853114">
       <screen x="-1080" y="-800" width="1080" height="1920" />
     </state>
     <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581091083928" />
     <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057333777" />
-    <state x="-1051" y="-419" key="CommitChangelistDialog2/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581145776269" />
+    <state x="-1051" y="-419" key="CommitChangelistDialog2/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581145853114" />
     <state x="-1037" y="111" width="1021" height="827" key="EditFileWatcherDialog" timestamp="1581053550823">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
@@ -320,11 +333,11 @@
     </state>
     <state x="-1080" y="41" width="1080" height="897" key="SettingsEditor/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581091771549" />
     <state x="-1080" y="-331" width="1080" height="1920" key="SettingsEditor/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581101870678" />
-    <state width="625" height="500" key="SwitcherDM" timestamp="1581145107747">
+    <state width="625" height="500" key="SwitcherDM" timestamp="1581145908334">
       <screen x="-1080" y="-800" width="1080" height="1920" />
     </state>
     <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090984081" />
-    <state width="625" height="500" key="SwitcherDM/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581145107747" />
+    <state width="625" height="500" key="SwitcherDM/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581145908334" />
     <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581058848291">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
