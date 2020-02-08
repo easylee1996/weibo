@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e742b4ff-7c99-4e46-a5f2-d44cd679b1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +205,7 @@
       <workItem from="1581090292765" duration="1561000" />
       <workItem from="1581100556773" duration="1065000" />
       <workItem from="1581102127910" duration="691000" />
-      <workItem from="1581103796901" duration="2004000" />
+      <workItem from="1581103796901" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary="命名路由">
       <created>1581057837517</created>
@@ -246,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581091084067</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="创建会话">
+      <created>1581144655606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581144655606</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +282,8 @@
     <MESSAGE value="增加CSRF验证" />
     <MESSAGE value="中文的错误提示信息" />
     <MESSAGE value="完成用户注册功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成用户注册功能" />
+    <MESSAGE value="创建会话" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建会话" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1040" y="213" key="#Notifications" timestamp="1581090389517">
@@ -287,11 +298,12 @@
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
     <state x="-835" y="289" key="#com.intellij.tools.ToolEditorDialog/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581073783052" />
-    <state x="-1051" y="50" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581091083928">
-      <screen x="-1080" y="-331" width="1080" height="1920" />
+    <state x="-1051" y="-419" width="1025" height="1120" key="CommitChangelistDialog2" timestamp="1581144655407">
+      <screen x="-1080" y="-800" width="1080" height="1920" />
     </state>
     <state x="-1051" y="50" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581091083928" />
     <state x="48" y="0" width="1025" height="1120" key="CommitChangelistDialog2/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581057333777" />
+    <state x="-1051" y="-419" key="CommitChangelistDialog2/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581144655407" />
     <state x="-1037" y="111" width="1021" height="827" key="EditFileWatcherDialog" timestamp="1581053550823">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
@@ -305,11 +317,11 @@
     </state>
     <state x="-1080" y="41" width="1080" height="897" key="SettingsEditor/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581091771549" />
     <state x="-1080" y="-331" width="1080" height="1920" key="SettingsEditor/-1080.-331.1080.1920/0.0.1792.1120@0.0.1792.1120" timestamp="1581101870678" />
-    <state width="625" height="500" key="SwitcherDM" timestamp="1581143927263">
+    <state width="625" height="500" key="SwitcherDM" timestamp="1581145107747">
       <screen x="-1080" y="-800" width="1080" height="1920" />
     </state>
     <state width="625" height="500" key="SwitcherDM/-1080.-331.1080.1920/0.0.1792.1120@-1080.-331.1080.1920" timestamp="1581090984081" />
-    <state width="625" height="500" key="SwitcherDM/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581143927263" />
+    <state width="625" height="500" key="SwitcherDM/-1080.-800.1080.1920/0.0.1792.1120@-1080.-800.1080.1920" timestamp="1581145107747" />
     <state x="-803" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581058848291">
       <screen x="-1080" y="-331" width="1080" height="1920" />
     </state>
